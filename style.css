@@ -1,0 +1,113 @@
+ body{
+ color: white;
+ font-family: "Monaco", monospace;
+ font-size: 30px;
+ background-color: #272727;
+ }
+ 
+ 
+ .center {
+  height: 1080px;
+  width: 100%;
+  /*border: 2px solid red;*/
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+ 
+.button {
+ background-color: #515050;
+ border: none;
+ border-radius: 12px;
+ color: white;
+ font-size: 36px;
+ margin-left: 10px;
+ margin-right: 10px;
+ transition-duration: 1.5s; 
+ cursor: pointer;
+ padding: 10px;
+ }
+ 
+ 
+ .button:focus{
+  border: 4px solid #f30930;
+ }
+ 
+
+ 
+ .button:hover{
+ background-color: white;
+ border: none;
+ color: black;
+ }
+ 
+ .buttonRedBorder {
+ border: 4px solid #f30930;
+ }
+ 
+ 
+ 
+ .image{
+  transition: transform 2000ms, opacity 400ms;
+  }
+ 
+ .image:hover{
+  transform: scale(1.1);
+  opacity: 1;
+ }
+ 
+ 
+ div.fixedTop {
+ position: fixed;
+ top: 20px;
+ right: 0;
+ width: 200px;
+ }
+ 
+ div.fixedTopLeft {
+ position: fixed;
+ top: 100px;
+ left: 2%;
+ width: 200px;
+ }
+ 
+ div.fixedTopMiddle {
+ position: fixed;
+ font-size: 42px;
+ top:100px;
+ right: 43%;
+ width: 200px;
+ }
+ 
+ div.fixedBottom {
+ position: fixed;
+ bottom: 20px;
+ right: 1%;
+ width: 200px;
+ }
+ 
+ div.fixedBottomMiddle {
+ position: fixed;
+ bottom: 100px;
+ right: 42%;
+ width: 200px;
+ }
+ 
+ div.fixedBottomLeft {
+ position: fixed;
+ bottom: 100px;
+ left: 3%;
+ width: 200px;
+ }
+ 
+ div.fixedRight{
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  width: 200px;
+ }
+ 
+ 
+ 
+ 
